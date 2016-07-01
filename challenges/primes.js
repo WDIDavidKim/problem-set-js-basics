@@ -10,11 +10,21 @@
 */
 
 // YOUR CODE HERE
-function isPrime(num) {
-    for(var i = 2; i < num; i++) {
-        if(num % i === 0) {
-            return false;
-        }
+function isPrime(num){
+    for(var i = 2; i < num; i++){
+      if(num % i === 0){
+        return false;
+      }
     }
     return num > 1;
+}
+
+function primes(max){
+  var listPrimes = [];
+  for(var i = 0; i <= max; i++){
+    if(isPrime(i)){
+      listPrimes.push(i);
+    }
+  }
+  return listPrimes;
 }
