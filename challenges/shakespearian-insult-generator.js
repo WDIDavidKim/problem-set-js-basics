@@ -18,8 +18,16 @@ var third_word = ["wagtail", "whey-face", "vassal", "varlet", "strumpet", "skain
 
 // YOUR CODE HERE
 function generateInsult(){
-  rand1 = first_word[Math.floor(Math.random() * first_word.length)];
-  rand2 = second_word[Math.floor(Math.random() * second_word.length)];
-  rand3 = third_word[Math.floor(Math.random() * third_word.length)];
-  console.log("You" + " " + rand1 + "," + " " + rand2 + "," + " " + rand3 + "," + " " + "you!");
-  }
+  var rand1 = first_word[Math.floor(Math.random() * first_word.length)];
+  var rand2 = second_word[Math.floor(Math.random() * second_word.length)];
+  var rand3 = third_word[Math.floor(Math.random() * third_word.length)];
+  var insult = (rand1 + rand2 + rand3);
+  return insult;
+}
+
+
+
+//rand = (first_word, second_word, third_word)
+//for (i = 0, i < rand, i++){
+
+//}
