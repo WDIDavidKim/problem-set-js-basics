@@ -21,3 +21,8 @@
 */
 
 // YOUR CODE HERE
+function isPalindrome(str){
+      str = str.toLowerCase();
+      str = str.replace(/[^a-zA-Z0-9]/g, '');
+      return str == str.split('').reverse().join('');
+}
