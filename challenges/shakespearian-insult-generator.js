@@ -25,6 +25,9 @@ console.log("You " + rand1 + " " + rand2 + " " + rand3 + "!");
 }
 
 
-
+//var randomWords = []
 //rand = (first_word, second_word, third_word)
 //for (i = 0, i < rand, i++){
+//var name = prompt('Your name');
+//function insultYourName(){
+//}
