@@ -21,13 +21,10 @@ function generateInsult(){
   var rand1 = first_word[Math.floor(Math.random() * first_word.length)];
   var rand2 = second_word[Math.floor(Math.random() * second_word.length)];
   var rand3 = third_word[Math.floor(Math.random() * third_word.length)];
-  var insult = (rand1 + rand2 + rand3);
-  return insult;
+console.log("You " + rand1 + " " + rand2 + " " + rand3 + "!");
 }
 
 
 
 //rand = (first_word, second_word, third_word)
 //for (i = 0, i < rand, i++){
-
-//}
